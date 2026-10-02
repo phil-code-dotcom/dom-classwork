@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        <p id="na"></p>
+    </div>
+
+    <div id="new"></div>
+
+    <div id="image"></div>
+
+    <script>
+        let para = document.getElementById("na");
+        para.textContent = "Welcome to";
+        let bfl_color = document.createElement("span");
+        bfl_color.textContent = " BlockFuse"
+        bfl_color.id = "na-color"
+        para.appendChild(bfl_color)
+    
+        document.getElementById("na-color").style.color = "red";
+
+        let myBoy = document.createElement("p");
+        myBoy.textContent = "Promise";
+
+        let newDiv = document.getElementById("new");
+        newDiv.appendChild(myBoy)
+
+        let bfl_link = document.createElement("a");
+        bfl_link.href = "https://www.blockfuselabs.com/"
+        bfl_link.textContent = "blockfuselink";
+
+        newDiv.appendChild(bfl_link)
+
+        console.log(para)
+        console.log(newDiv);
+
+        // For the image
+        let image_div = document.getElementById("image");
+
+        let anchor = document.createElement("a");
+        anchor.textContent = "Click me to get an image";
+
+        // let image = document.createElement("img")
+        // image.src = "./doctors.png"
+        
+        anchor.href = "./image.jpg"
+        
+        image_div.appendChild(anchor)
+        
+        
+    </script>
+</body>
+</html>

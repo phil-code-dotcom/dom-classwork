@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #CC6F00; display: flex; flex-direction: column; align-items: center;">
+    
+    
+    <div id="stud1"></div>
+    <div id="stud2"></div>
+    <div id="stud3"></div>
+
+    
+    <script>
+        // For the first student
+        let student1 = document.getElementById("stud1");
+        let name1 = document.createElement("h1");
+        name1.textContent = "Philip Ajik";
+        student1.appendChild(name1)
+
+        let age1 = document.createElement("p");
+        age1.textContent = 20;
+        student1.appendChild(age1);
+
+        let course1 = document.createElement("p");
+        course1.textContent = "Computer Science";
+        student1.appendChild(course1);
+
+        let class1 = document.createElement("p");
+        class1.textContent = "SSS3";
+        student1.appendChild(class1);
+
+        let subject1 = document.createElement("p");
+        subject1.textContent = "Maths";
+        student1.appendChild(subject1);
+
+        let total1 = document.createElement("p");
+        total1.textContent = Number(age1.textContent)+10;
+        student1.appendChild(total1);
+
+        // second student
+        let student2 = document.getElementById("stud2");
+        let name2 = document.createElement("h1");
+        name2.textContent = "Promise Obi";
+        student2.appendChild(name2)
+
+        let age2 = document.createElement("p");
+        age2.textContent = 30;
+        student2.appendChild(age2);
+
+        let course2 = document.createElement("p");
+        course2.textContent = "Software Engineering";
+        student2.appendChild(course2);
+
+        let class2 = document.createElement("p");
+        class2.textContent = "Beginners";
+        student2.appendChild(class2);
+
+        let subject2 = document.createElement("p");
+        subject2.textContent = "HTML";
+        student2.appendChild(subject2);
+
+        let total2 = document.createElement("p");
+        total2.textContent = Number(age2.textContent)+10;
+        student2.appendChild(total2);
+
+        // third student
+        let student3 = document.getElementById("stud3");
+        let name3 = document.createElement("h1");
+        name3.textContent = "Bosan Emmanuel";
+        student3.appendChild(name3)
+
+        let age3 = document.createElement("p");
+        age3.textContent = 40;
+        student3.appendChild(age3);
+
+        let course3 = document.createElement("p");
+        course3.textContent = "Computer Science";
+        student3.appendChild(course3);
+
+        let class3 = document.createElement("p");
+        class3.textContent = "SSS3";
+        student3.appendChild(class3);
+
+        let subject3 = document.createElement("p");
+        subject3.textContent = "Maths";
+        student3.appendChild(subject3);
+
+        let total3 = document.createElement("p");
+        total3.textContent = Number(age3.textContent)+10;
+        student3.appendChild(total3);
+
+        name1.style.color = "#F9E6A8";
+        name2.style.color = "#F9E6A8";
+        name3.style.color = "#F9E6A8";
+
+        student1.style.display = "flex";
+        student1.style.flexDirection = "column";
+        student1.style.alignItems = "center";
+
+        student2.style.display = "flex";
+        student2.style.flexDirection = "column";
+        student2.style.alignItems = "center";
+
+        student3.style.display = "flex";
+        student3.style.flexDirection = "column";
+        student3.style.alignItems = "center";
+        
+
+
+        // age1.style.color = "#4D2A00"
+        // course1.style.color = "#4D2A00"
+        // class1.style.color = "#4D2A00"
+        // subject1.style.color = "#4D2A00"
+        // total1.style.color = "#4D2A00"
+
+
+
+    </script>
+</body>
+</html>
